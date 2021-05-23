@@ -1,0 +1,6 @@
+framework module Pods_FelipeMesquitaMobills_FelipeMesquitaMobillsUITests {
+  umbrella header "Pods-FelipeMesquitaMobills-FelipeMesquitaMobillsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
