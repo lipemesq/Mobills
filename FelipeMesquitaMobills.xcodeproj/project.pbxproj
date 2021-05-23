@@ -15,6 +15,17 @@
 		03D9AB2A265AF61A00360E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D9AB28265AF61A00360E33 /* LaunchScreen.storyboard */; };
 		03D9AB35265AF61A00360E33 /* FelipeMesquitaMobillsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB34265AF61A00360E33 /* FelipeMesquitaMobillsTests.swift */; };
 		03D9AB40265AF61A00360E33 /* FelipeMesquitaMobillsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB3F265AF61A00360E33 /* FelipeMesquitaMobillsUITests.swift */; };
+		03D9AB52265AF6B400360E33 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB51265AF6B400360E33 /* Expense.swift */; };
+		03D9AB54265AF72200360E33 /* ExpensesModuleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB53265AF72200360E33 /* ExpensesModuleManager.swift */; };
+		03D9AB57265AF76100360E33 /* ExpensesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB56265AF76100360E33 /* ExpensesRepository.swift */; };
+		03D9AB5A265AF7BF00360E33 /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB59265AF7BF00360E33 /* Handler.swift */; };
+		03D9AB5D265AF9C400360E33 /* AddExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB5C265AF9C400360E33 /* AddExpense.swift */; };
+		03D9AB5F265AFAE700360E33 /* UpdateExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB5E265AFAE700360E33 /* UpdateExpense.swift */; };
+		03D9AB61265AFB5400360E33 /* DeleteExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB60265AFB5400360E33 /* DeleteExpense.swift */; };
+		03D9AB63265AFB9300360E33 /* ExpensesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB62265AFB9300360E33 /* ExpensesStore.swift */; };
+		03D9AB6A265AFCC000360E33 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB69265AFCC000360E33 /* HomeViewController.swift */; };
+		03D9AB6D265AFDD300360E33 /* ExpensesStoreImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB6C265AFDD300360E33 /* ExpensesStoreImpl.swift */; };
+		03D9AB70265B005B00360E33 /* ExpenseRepositoryFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB6F265B005B00360E33 /* ExpenseRepositoryFirebase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		03D9AB3B265AF61A00360E33 /* FelipeMesquitaMobillsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FelipeMesquitaMobillsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D9AB3F265AF61A00360E33 /* FelipeMesquitaMobillsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FelipeMesquitaMobillsUITests.swift; sourceTree = "<group>"; };
 		03D9AB41265AF61A00360E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D9AB51265AF6B400360E33 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		03D9AB53265AF72200360E33 /* ExpensesModuleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesModuleManager.swift; sourceTree = "<group>"; };
+		03D9AB56265AF76100360E33 /* ExpensesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesRepository.swift; sourceTree = "<group>"; };
+		03D9AB59265AF7BF00360E33 /* Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
+		03D9AB5C265AF9C400360E33 /* AddExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpense.swift; sourceTree = "<group>"; };
+		03D9AB5E265AFAE700360E33 /* UpdateExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateExpense.swift; sourceTree = "<group>"; };
+		03D9AB60265AFB5400360E33 /* DeleteExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteExpense.swift; sourceTree = "<group>"; };
+		03D9AB62265AFB9300360E33 /* ExpensesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesStore.swift; sourceTree = "<group>"; };
+		03D9AB69265AFCC000360E33 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		03D9AB6C265AFDD300360E33 /* ExpensesStoreImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesStoreImpl.swift; sourceTree = "<group>"; };
+		03D9AB6F265B005B00360E33 /* ExpenseRepositoryFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseRepositoryFirebase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +121,8 @@
 		03D9AB1C265AF61800360E33 /* FelipeMesquitaMobills */ = {
 			isa = PBXGroup;
 			children = (
+				03D9AB4D265AF67000360E33 /* Modules */,
+				03D9AB66265AFC9D00360E33 /* Views */,
 				03D9AB1D265AF61800360E33 /* AppDelegate.swift */,
 				03D9AB1F265AF61800360E33 /* SceneDelegate.swift */,
 				03D9AB21265AF61800360E33 /* ViewController.swift */,
@@ -126,6 +150,103 @@
 				03D9AB41265AF61A00360E33 /* Info.plist */,
 			);
 			path = FelipeMesquitaMobillsUITests;
+			sourceTree = "<group>";
+		};
+		03D9AB4D265AF67000360E33 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				03D9AB58265AF7AE00360E33 /* Utils */,
+				03D9AB4E265AF67C00360E33 /* Expenses */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		03D9AB4E265AF67C00360E33 /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				03D9AB4F265AF69D00360E33 /* Core */,
+				03D9AB64265AFC5F00360E33 /* Infra */,
+			);
+			path = Expenses;
+			sourceTree = "<group>";
+		};
+		03D9AB4F265AF69D00360E33 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				03D9AB53265AF72200360E33 /* ExpensesModuleManager.swift */,
+				03D9AB5B265AF9AF00360E33 /* Actions */,
+				03D9AB55265AF74700360E33 /* Needs */,
+				03D9AB50265AF6A300360E33 /* Entities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		03D9AB50265AF6A300360E33 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				03D9AB51265AF6B400360E33 /* Expense.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		03D9AB55265AF74700360E33 /* Needs */ = {
+			isa = PBXGroup;
+			children = (
+				03D9AB62265AFB9300360E33 /* ExpensesStore.swift */,
+				03D9AB56265AF76100360E33 /* ExpensesRepository.swift */,
+			);
+			path = Needs;
+			sourceTree = "<group>";
+		};
+		03D9AB58265AF7AE00360E33 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				03D9AB59265AF7BF00360E33 /* Handler.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		03D9AB5B265AF9AF00360E33 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				03D9AB5C265AF9C400360E33 /* AddExpense.swift */,
+				03D9AB5E265AFAE700360E33 /* UpdateExpense.swift */,
+				03D9AB60265AFB5400360E33 /* DeleteExpense.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		03D9AB64265AFC5F00360E33 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				03D9AB6E265B004200360E33 /* Repositories */,
+				03D9AB6B265AFDC400360E33 /* Stores */,
+			);
+			path = Infra;
+			sourceTree = "<group>";
+		};
+		03D9AB66265AFC9D00360E33 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03D9AB69265AFCC000360E33 /* HomeViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		03D9AB6B265AFDC400360E33 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				03D9AB6C265AFDD300360E33 /* ExpensesStoreImpl.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		03D9AB6E265B004200360E33 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				03D9AB6F265B005B00360E33 /* ExpenseRepositoryFirebase.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +379,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03D9AB5A265AF7BF00360E33 /* Handler.swift in Sources */,
+				03D9AB61265AFB5400360E33 /* DeleteExpense.swift in Sources */,
+				03D9AB52265AF6B400360E33 /* Expense.swift in Sources */,
+				03D9AB6D265AFDD300360E33 /* ExpensesStoreImpl.swift in Sources */,
+				03D9AB54265AF72200360E33 /* ExpensesModuleManager.swift in Sources */,
 				03D9AB22265AF61800360E33 /* ViewController.swift in Sources */,
+				03D9AB63265AFB9300360E33 /* ExpensesStore.swift in Sources */,
+				03D9AB5F265AFAE700360E33 /* UpdateExpense.swift in Sources */,
+				03D9AB5D265AF9C400360E33 /* AddExpense.swift in Sources */,
 				03D9AB1E265AF61800360E33 /* AppDelegate.swift in Sources */,
+				03D9AB57265AF76100360E33 /* ExpensesRepository.swift in Sources */,
+				03D9AB70265B005B00360E33 /* ExpenseRepositoryFirebase.swift in Sources */,
 				03D9AB20265AF61800360E33 /* SceneDelegate.swift in Sources */,
+				03D9AB6A265AFCC000360E33 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +498,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +553,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
