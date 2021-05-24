@@ -8,8 +8,6 @@
 import UIKit
 
 class HomeTableViewCell: UITableViewCell {
-
-    @IBOutlet weak var leadingIcon: UIImageView!
     
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var subtitle: UILabel!

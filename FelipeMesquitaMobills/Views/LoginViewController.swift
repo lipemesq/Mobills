@@ -54,4 +54,7 @@ class LoginViewController: UIViewController {
         manualLogin()
     }
     
+    @IBAction func forgotPasswordTapped(_ sender: Any) {
+        print("Error, unfortunaly this function was not implemented because the sad dev lacked time :( \n \(#function)")
+    }
 }

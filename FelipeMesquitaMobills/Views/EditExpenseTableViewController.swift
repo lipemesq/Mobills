@@ -28,11 +28,15 @@ class EditExpenseTableViewController: UITableViewController {
         
         setupInputsListeners()
         if let data = currentExpense {
+            self.navigationItem.title = "Modificar despesa"
+            
             setupCurrentData(with: data)
             setupDeleteButton()
             setupUpdateButton()
         }
         else {
+            self.navigationItem.title = "Nova despesa"
+
             setupCancelButton()
             setupCreateButton()
         }

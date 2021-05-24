@@ -61,7 +61,6 @@ class HomeViewController: UITableViewController {
         logout()
     }
     
-    
 }
 
 // MARK: EXPENSES DELEGATE
@@ -88,9 +87,9 @@ extension HomeViewController {
         
         cell.title.text = expense.description
         cell.subtitle.text = "\(expense.date.day) " + Months(rawValue: expense.date.month)!.short
-        cell.trailingDetail.text = expense.value.formatAsCurrency()
+        cell.trailingDetail.text = "- " +  expense.value.formatAsCurrencyNoSymbolNoCents()!
         
-        cell.trailingDetail.textColor = expense.paid ? .label.withAlphaComponent(0.75) : .orange
+        cell.trailingDetail.textColor = expense.paid ? .red.withAlphaComponent(0.85) : .orange.withAlphaComponent(0.7)
 
 
         return cell
