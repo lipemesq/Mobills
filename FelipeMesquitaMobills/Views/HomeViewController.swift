@@ -8,6 +8,7 @@
 import UIKit
 
 class HomeViewController: UITableViewController {
+    let moduleManager = ExpensesModuleManagerImpl()
     
     var expensesStore: ExpensesStore!
 
@@ -17,8 +18,38 @@ class HomeViewController: UITableViewController {
         let repo = ExpenseRepositoryFirebase()
         expensesStore = ExpensesStoreImpl(expensesRepository: repo)
         expensesStore.delegate = self
+        
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
-
+    
+    private func showAddExpensePanel() {
+        if let navigationController = self.storyboard?.instantiateViewController(identifier: "editExpense") as? UINavigationController {
+            if let editExpenseView = navigationController.children.first as? EditExpenseTableViewController {
+                editExpenseView.doAddExpense = moduleManager.addExpense
+                
+                self.present(navigationController, animated: true, completion: nil)
+            }
+        }
+    }
+    
+    
+    private func showEditExpensePanel(for expense: Expense) {
+        if let navigationController = self.storyboard?.instantiateViewController(identifier: "editExpense") as? UINavigationController {
+            if let editExpenseView = navigationController.children.first as? EditExpenseTableViewController {
+                editExpenseView.currentExpense = expense
+                
+                editExpenseView.doUpdateExpense = moduleManager.updateExpense
+                editExpenseView.doDeleteExpense = moduleManager.deleteExpense
+                
+                self.present(navigationController, animated: true, completion: nil)
+            }
+        }
+    }
+    
+    @IBAction func addTapped(_ sender: UIBarButtonItem) {
+        showAddExpensePanel()
+    }
+    
 }
 
 // MARK: EXPENSES DELEGATE
@@ -51,5 +82,10 @@ extension HomeViewController {
 
 
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        showEditExpensePanel(for: expensesStore.expenses[indexPath.row])
     }
 }

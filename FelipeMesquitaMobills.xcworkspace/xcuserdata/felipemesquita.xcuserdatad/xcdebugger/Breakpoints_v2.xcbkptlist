@@ -14,24 +14,8 @@
             filePath = "FelipeMesquitaMobills/Modules/Expenses/Infra/Repositories/ExpenseRepositoryFirebase.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "bindExpenses(onSucess:onError:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "96AF569E-11C2-442C-9882-EF3CC9A883A7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FelipeMesquitaMobills/Modules/Expenses/Infra/Repositories/ExpenseRepositoryFirebase.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "bindExpenses(onSucess:onError:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,9 +30,265 @@
             filePath = "FelipeMesquitaMobills/Modules/Expenses/Infra/Repositories/ExpenseRepositoryFirebase.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "bindExpenses(onSucess:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0AD29251-F659-46AA-8CC9-C98B65D50545"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FelipeMesquitaMobills/Views/EditExpenseTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "doneButtonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "879CB461-B45B-4F68-A92D-2B1E74880FCD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FelipeMesquitaMobills/Views/EditExpenseTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "doneButtonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04F2547E-46BD-4B3F-B6E3-0BEE65402742"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FelipeMesquitaMobills/Views/EditExpenseTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "doneButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "04F2547E-46BD-4B3F-B6E3-0BEE65402742 - 9a54d7cb5374c486"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FelipeMesquitaMobills.EditExpenseTableViewController.doneButtonTapped(Any) -&gt; ()"
+                  moduleName = "FelipeMesquitaMobills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemesquita/myself/FelipeMesquitaMobills/FelipeMesquitaMobills/Views/EditExpenseTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "2651">
+               </Location>
+               <Location
+                  uuid = "04F2547E-46BD-4B3F-B6E3-0BEE65402742 - a19ac703c7e8ee3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FelipeMesquitaMobills.EditExpenseTableViewController.doneButtonTapped(Any) -&gt; ()"
+                  moduleName = "FelipeMesquitaMobills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemesquita/myself/FelipeMesquitaMobills/FelipeMesquitaMobills/Views/EditExpenseTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A674822-B506-4D49-8F02-8CD35DB6603A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FelipeMesquitaMobills/Views/EditExpenseTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "256DD193-0B68-4AB8-903F-C604E9A600D5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FelipeMesquitaMobills/Views/EditExpenseTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "doneButtonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F593B61E-641A-4BF1-85D5-F1F51DEFB0A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FelipeMesquitaMobills/Modules/Expenses/Core/Actions/AddExpense.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "callAsFunction(_:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F593B61E-641A-4BF1-85D5-F1F51DEFB0A1 - 2e17974b6a435321"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FelipeMesquitaMobills.AddExpenseImpl.callAsFunction(_: FelipeMesquitaMobills.Expense, completion: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FelipeMesquitaMobills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemesquita/myself/FelipeMesquitaMobills/FelipeMesquitaMobills/Modules/Expenses/Core/Actions/AddExpense.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "F593B61E-641A-4BF1-85D5-F1F51DEFB0A1 - 83cad7187d081164"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FelipeMesquitaMobills.AddExpenseImpl.callAsFunction(_: FelipeMesquitaMobills.Expense, completion: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FelipeMesquitaMobills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemesquita/myself/FelipeMesquitaMobills/FelipeMesquitaMobills/Modules/Expenses/Core/Actions/AddExpense.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD7523BF-783A-438A-BA42-D61C125C6B9E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FelipeMesquitaMobills/Modules/Expenses/Infra/Repositories/ExpenseRepositoryFirebase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "updateExpense(_:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BD7523BF-783A-438A-BA42-D61C125C6B9E - 2475625a6c52555f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FelipeMesquitaMobills.ExpenseRepositoryFirebase.updateExpense(_: FelipeMesquitaMobills.Expense, completion: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FelipeMesquitaMobills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemesquita/myself/FelipeMesquitaMobills/FelipeMesquitaMobills/Modules/Expenses/Infra/Repositories/ExpenseRepositoryFirebase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "829">
+               </Location>
+               <Location
+                  uuid = "BD7523BF-783A-438A-BA42-D61C125C6B9E - b4f897beb111a1e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FelipeMesquitaMobills.ExpenseRepositoryFirebase.updateExpense(_: FelipeMesquitaMobills.Expense, completion: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FelipeMesquitaMobills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemesquita/myself/FelipeMesquitaMobills/FelipeMesquitaMobills/Modules/Expenses/Infra/Repositories/ExpenseRepositoryFirebase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "145">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "657B55B3-3FC2-4FBF-86E8-F6F4A0252930"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FelipeMesquitaMobills/Modules/Expenses/Infra/Repositories/ExpenseRepositoryFirebase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "updateExpense(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6F21703-0D6C-44ED-8AA6-ABA41A9E256E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FelipeMesquitaMobills/Modules/Expenses/Infra/Repositories/ExpenseRepositoryFirebase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "updateExpense(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D80F522-D063-4278-B7C3-3A1E5B980830"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FelipeMesquitaMobills/Views/EditExpenseTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "deleteExpense()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

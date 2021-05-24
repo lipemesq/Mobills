@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		03D9AB1E265AF61800360E33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB1D265AF61800360E33 /* AppDelegate.swift */; };
 		03D9AB20265AF61800360E33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB1F265AF61800360E33 /* SceneDelegate.swift */; };
-		03D9AB22265AF61800360E33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB21265AF61800360E33 /* ViewController.swift */; };
 		03D9AB25265AF61800360E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D9AB23265AF61800360E33 /* Main.storyboard */; };
 		03D9AB27265AF61A00360E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D9AB26265AF61A00360E33 /* Assets.xcassets */; };
 		03D9AB2A265AF61A00360E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D9AB28265AF61A00360E33 /* LaunchScreen.storyboard */; };
@@ -32,6 +31,9 @@
 		03D9AB79265B1B5400360E33 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB78265B1B5400360E33 /* Formatters.swift */; };
 		03D9AB7C265B1B8700360E33 /* Months.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB7B265B1B8700360E33 /* Months.swift */; };
 		03D9AB7E265B1CDA00360E33 /* DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB7D265B1CDA00360E33 /* DateComponents.swift */; };
+		03D9AB80265B32F700360E33 /* EditExpenseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB7F265B32F700360E33 /* EditExpenseTableViewController.swift */; };
+		03D9AB83265B43CC00360E33 /* ViewCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB82265B43CC00360E33 /* ViewCornerRadius.swift */; };
+		03D9AB85265B43EC00360E33 /* ViewShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB84265B43EC00360E33 /* ViewShadow.swift */; };
 		AEB41E0FBB6C5AD39D400306 /* Pods_FelipeMesquitaMobills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D2C1B8F426C6417A89D755 /* Pods_FelipeMesquitaMobills.framework */; };
 		BAF14F63FA54AD899BD19419 /* Pods_FelipeMesquitaMobills_FelipeMesquitaMobillsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DB2BF424965137BFCFCFEE /* Pods_FelipeMesquitaMobills_FelipeMesquitaMobillsUITests.framework */; };
 		D2551CF9353E941F97FDC190 /* Pods_FelipeMesquitaMobillsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAA699CBFEC8980F94DD930 /* Pods_FelipeMesquitaMobillsTests.framework */; };
@@ -58,7 +60,6 @@
 		03D9AB1A265AF61800360E33 /* FelipeMesquitaMobills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FelipeMesquitaMobills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D9AB1D265AF61800360E33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03D9AB1F265AF61800360E33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03D9AB21265AF61800360E33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03D9AB24265AF61800360E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03D9AB26265AF61A00360E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03D9AB29265AF61A00360E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,6 +87,9 @@
 		03D9AB78265B1B5400360E33 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
 		03D9AB7B265B1B8700360E33 /* Months.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Months.swift; sourceTree = "<group>"; };
 		03D9AB7D265B1CDA00360E33 /* DateComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponents.swift; sourceTree = "<group>"; };
+		03D9AB7F265B32F700360E33 /* EditExpenseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExpenseTableViewController.swift; sourceTree = "<group>"; };
+		03D9AB82265B43CC00360E33 /* ViewCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCornerRadius.swift; sourceTree = "<group>"; };
+		03D9AB84265B43EC00360E33 /* ViewShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewShadow.swift; sourceTree = "<group>"; };
 		0FAA699CBFEC8980F94DD930 /* Pods_FelipeMesquitaMobillsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FelipeMesquitaMobillsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28450647B340D98BC8339372 /* Pods-FelipeMesquitaMobillsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FelipeMesquitaMobillsTests.debug.xcconfig"; path = "Target Support Files/Pods-FelipeMesquitaMobillsTests/Pods-FelipeMesquitaMobillsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		49A0FD0299948BEDE0119E8F /* Pods-FelipeMesquitaMobills-FelipeMesquitaMobillsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FelipeMesquitaMobills-FelipeMesquitaMobillsUITests.debug.xcconfig"; path = "Target Support Files/Pods-FelipeMesquitaMobills-FelipeMesquitaMobillsUITests/Pods-FelipeMesquitaMobills-FelipeMesquitaMobillsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,7 +158,6 @@
 				03D9AB66265AFC9D00360E33 /* Views */,
 				03D9AB1D265AF61800360E33 /* AppDelegate.swift */,
 				03D9AB1F265AF61800360E33 /* SceneDelegate.swift */,
-				03D9AB21265AF61800360E33 /* ViewController.swift */,
 				03D9AB23265AF61800360E33 /* Main.storyboard */,
 				03D9AB26265AF61A00360E33 /* Assets.xcassets */,
 				03D9AB28265AF61A00360E33 /* LaunchScreen.storyboard */,
@@ -261,9 +264,11 @@
 		03D9AB66265AFC9D00360E33 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				03D9AB81265B43B700360E33 /* Utils */,
 				03D9AB7A265B1B7C00360E33 /* Common */,
 				03D9AB69265AFCC000360E33 /* HomeViewController.swift */,
 				03D9AB76265B153600360E33 /* HomeTableViewCell.swift */,
+				03D9AB7F265B32F700360E33 /* EditExpenseTableViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,6 +303,15 @@
 				03D9AB7B265B1B8700360E33 /* Months.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		03D9AB81265B43B700360E33 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				03D9AB82265B43CC00360E33 /* ViewCornerRadius.swift */,
+				03D9AB84265B43EC00360E33 /* ViewShadow.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		C019EB04E7FF36A66EBBC0D5 /* Frameworks */ = {
@@ -564,11 +578,12 @@
 			files = (
 				03D9AB5A265AF7BF00360E33 /* Handler.swift in Sources */,
 				03D9AB61265AFB5400360E33 /* DeleteExpense.swift in Sources */,
+				03D9AB85265B43EC00360E33 /* ViewShadow.swift in Sources */,
 				03D9AB52265AF6B400360E33 /* Expense.swift in Sources */,
 				03D9AB6D265AFDD300360E33 /* ExpensesStoreImpl.swift in Sources */,
 				03D9AB75265B117600360E33 /* ExpenseObj.swift in Sources */,
+				03D9AB83265B43CC00360E33 /* ViewCornerRadius.swift in Sources */,
 				03D9AB54265AF72200360E33 /* ExpensesModuleManager.swift in Sources */,
-				03D9AB22265AF61800360E33 /* ViewController.swift in Sources */,
 				03D9AB63265AFB9300360E33 /* ExpensesStore.swift in Sources */,
 				03D9AB5F265AFAE700360E33 /* UpdateExpense.swift in Sources */,
 				03D9AB5D265AF9C400360E33 /* AddExpense.swift in Sources */,
@@ -578,6 +593,7 @@
 				03D9AB20265AF61800360E33 /* SceneDelegate.swift in Sources */,
 				03D9AB77265B153600360E33 /* HomeTableViewCell.swift in Sources */,
 				03D9AB6A265AFCC000360E33 /* HomeViewController.swift in Sources */,
+				03D9AB80265B32F700360E33 /* EditExpenseTableViewController.swift in Sources */,
 				03D9AB7C265B1B8700360E33 /* Months.swift in Sources */,
 				03D9AB79265B1B5400360E33 /* Formatters.swift in Sources */,
 				03D9AB7E265B1CDA00360E33 /* DateComponents.swift in Sources */,
@@ -686,7 +702,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -741,7 +757,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

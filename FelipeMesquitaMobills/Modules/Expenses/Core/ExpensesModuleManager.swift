@@ -8,5 +8,23 @@
 import Foundation
 
 protocol ExpensesModuleManager {
-    var expensesRepository: ExpensesRepository { get }
+    var addExpense: AddExpense { get }
+    var deleteExpense: DeleteExpense { get }
+    var updateExpense: UpdateExpense { get }
+}
+
+class ExpensesModuleManagerImpl: ExpensesModuleManager {
+    let repo = ExpenseRepositoryFirebase()
+    
+    var addExpense: AddExpense {
+        AddExpenseImpl(expensesRepository: repo)
+    }
+    
+    var deleteExpense: DeleteExpense {
+        DeleteExpenseImpl(expensesRepository: repo)
+    }
+    
+    var updateExpense: UpdateExpense {
+        UpdateExpenseImpl(expensesRepository: repo)
+    }
 }

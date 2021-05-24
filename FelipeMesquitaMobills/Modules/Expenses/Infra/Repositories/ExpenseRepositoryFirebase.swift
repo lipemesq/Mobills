@@ -11,26 +11,33 @@ import CodableFirebase
 
 class ExpenseRepositoryFirebase: ExpensesRepository {
     let db = Firestore.firestore()
+    let userId = "teste7"
+    
+    private var expensesColletion: CollectionReference
+    
+    init() {
+        let user = db.collection("users").document(userId)
+        expensesColletion = user.collection("expenses")
+    }
     
     func bindExpenses(onSucess: @escaping Handler<[Expense]>,
                       onError: @escaping Handler<Error>) {
-        let user = db.collection("users").document("teste")
-        
-        user.collection("expenses")
+        expensesColletion
             .order(by: "date", descending: true)
             .addSnapshotListener { querySnapshot, error in
+                
                 guard let documents = querySnapshot?.documents else {
                     print("Error fetching documents: \(error!)")
                     onError(error!)
                     return
                 }
                 
-                for doc in documents {
-                    print(doc.data())
-                }
-                
                 let expenses = documents
-                    .map { try! FirestoreDecoder().decode(ExpenseObj.self, from: $0.data()) }
+                    .map { doc -> ExpenseObj in
+                        var obj = try! FirestoreDecoder().decode(ExpenseObj.self, from: doc.data())
+                        obj.id = doc.documentID
+                        return obj
+                    }
                     .compactMap({ $0.toModel() })
                 
                 onSucess(expenses)
@@ -38,34 +45,46 @@ class ExpenseRepositoryFirebase: ExpensesRepository {
     }
     
     func getExpenses(onSucess: @escaping Handler<[Expense]>, onError: @escaping Handler<Error>) {
-        
+        print(" --- ERROR: \(#function) not implemented yet because it's not used.")
+        onError(NSError())
     }
     
     func createExpense(_ expense: Expense, completion: @escaping Handler<Error?>) {
-        
+        let obj = ExpenseObj(from: expense)
+        let dic = try! FirestoreEncoder().encode(obj)
+
+        expensesColletion.document().setData(dic) { err in
+            if let err = err {
+                print("Error adding document: \(err) at \(#function)")
+                completion(err)
+            } else {
+                completion(nil)
+            }
+        }
     }
     
     func updateExpense(_ expense: Expense, completion: @escaping Handler<Error?>) {
-        
+        let obj = ExpenseObj(from: expense)
+        let dic = try! FirestoreEncoder().encode(obj)
+
+        expensesColletion.document(expense.id!).setData(dic) { err in
+            if let err = err {
+                print("Error updating document: \(err) at \(#function)")
+                completion(err)
+            } else {
+                completion(nil)
+            }
+        }
     }
     
     func deleteExpense(_ expense: Expense, completion: @escaping Handler<Error?>) {
-        
-    }
-}
-
-extension QueryDocumentSnapshot {
-    
-    func prepareForDecoding() -> [String: Any] {
-        var data = self.data()
-        data["id"] = self.documentID
-        
-        return data
-    }
-}
-
-extension JSONDecoder {
-    func decode<T>(_ type: T.Type, fromJSONObject object: Any) throws -> T where T: Decodable {
-        return try decode(T.self, from: try JSONSerialization.data(withJSONObject: object, options: []))
+        expensesColletion.document(expense.id!).delete() { err in
+            if let err = err {
+                print("Error deleting document: \(err) at \(#function)")
+                completion(err)
+            } else {
+                completion(nil)
+            }
+        }
     }
 }
