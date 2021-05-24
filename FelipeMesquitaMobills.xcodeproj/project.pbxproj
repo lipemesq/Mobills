@@ -34,6 +34,17 @@
 		03D9AB80265B32F700360E33 /* EditExpenseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB7F265B32F700360E33 /* EditExpenseTableViewController.swift */; };
 		03D9AB83265B43CC00360E33 /* ViewCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB82265B43CC00360E33 /* ViewCornerRadius.swift */; };
 		03D9AB85265B43EC00360E33 /* ViewShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D9AB84265B43EC00360E33 /* ViewShadow.swift */; };
+		03FB377B265C328000F9C891 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB3770265C328000F9C891 /* LoginRepository.swift */; };
+		03FB377C265C328000F9C891 /* LoginWithEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB3772265C328000F9C891 /* LoginWithEmail.swift */; };
+		03FB377D265C328000F9C891 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB3773265C328000F9C891 /* Logout.swift */; };
+		03FB377E265C328000F9C891 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB3774265C328000F9C891 /* ResetPassword.swift */; };
+		03FB377F265C328000F9C891 /* RegisterWithEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB3775265C328000F9C891 /* RegisterWithEmail.swift */; };
+		03FB3780265C328000F9C891 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB3777265C328000F9C891 /* LoginCredentials.swift */; };
+		03FB3781265C328000F9C891 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB3778265C328000F9C891 /* UserData.swift */; };
+		03FB3782265C328000F9C891 /* LoginRepositoryFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB377A265C328000F9C891 /* LoginRepositoryFirebase.swift */; };
+		03FB3784265C350800F9C891 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB3783265C350800F9C891 /* LoginViewController.swift */; };
+		03FB3786265C372500F9C891 /* LoginStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB3785265C372500F9C891 /* LoginStore.swift */; };
+		03FB3788265C377400F9C891 /* LoginStoreImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB3787265C377400F9C891 /* LoginStoreImpl.swift */; };
 		AEB41E0FBB6C5AD39D400306 /* Pods_FelipeMesquitaMobills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D2C1B8F426C6417A89D755 /* Pods_FelipeMesquitaMobills.framework */; };
 		BAF14F63FA54AD899BD19419 /* Pods_FelipeMesquitaMobills_FelipeMesquitaMobillsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DB2BF424965137BFCFCFEE /* Pods_FelipeMesquitaMobills_FelipeMesquitaMobillsUITests.framework */; };
 		D2551CF9353E941F97FDC190 /* Pods_FelipeMesquitaMobillsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAA699CBFEC8980F94DD930 /* Pods_FelipeMesquitaMobillsTests.framework */; };
@@ -90,6 +101,17 @@
 		03D9AB7F265B32F700360E33 /* EditExpenseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExpenseTableViewController.swift; sourceTree = "<group>"; };
 		03D9AB82265B43CC00360E33 /* ViewCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCornerRadius.swift; sourceTree = "<group>"; };
 		03D9AB84265B43EC00360E33 /* ViewShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewShadow.swift; sourceTree = "<group>"; };
+		03FB3770265C328000F9C891 /* LoginRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		03FB3772265C328000F9C891 /* LoginWithEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWithEmail.swift; sourceTree = "<group>"; };
+		03FB3773265C328000F9C891 /* Logout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
+		03FB3774265C328000F9C891 /* ResetPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		03FB3775265C328000F9C891 /* RegisterWithEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterWithEmail.swift; sourceTree = "<group>"; };
+		03FB3777265C328000F9C891 /* LoginCredentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
+		03FB3778265C328000F9C891 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		03FB377A265C328000F9C891 /* LoginRepositoryFirebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRepositoryFirebase.swift; sourceTree = "<group>"; };
+		03FB3783265C350800F9C891 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		03FB3785265C372500F9C891 /* LoginStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStore.swift; sourceTree = "<group>"; };
+		03FB3787265C377400F9C891 /* LoginStoreImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStoreImpl.swift; sourceTree = "<group>"; };
 		0FAA699CBFEC8980F94DD930 /* Pods_FelipeMesquitaMobillsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FelipeMesquitaMobillsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28450647B340D98BC8339372 /* Pods-FelipeMesquitaMobillsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FelipeMesquitaMobillsTests.debug.xcconfig"; path = "Target Support Files/Pods-FelipeMesquitaMobillsTests/Pods-FelipeMesquitaMobillsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		49A0FD0299948BEDE0119E8F /* Pods-FelipeMesquitaMobills-FelipeMesquitaMobillsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FelipeMesquitaMobills-FelipeMesquitaMobillsUITests.debug.xcconfig"; path = "Target Support Files/Pods-FelipeMesquitaMobills-FelipeMesquitaMobillsUITests/Pods-FelipeMesquitaMobills-FelipeMesquitaMobillsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -189,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				03D9AB58265AF7AE00360E33 /* Utils */,
+				03FB376D265C324D00F9C891 /* Login */,
 				03D9AB4E265AF67C00360E33 /* Expenses */,
 			);
 			path = Modules;
@@ -269,6 +292,7 @@
 				03D9AB69265AFCC000360E33 /* HomeViewController.swift */,
 				03D9AB76265B153600360E33 /* HomeTableViewCell.swift */,
 				03D9AB7F265B32F700360E33 /* EditExpenseTableViewController.swift */,
+				03FB3783265C350800F9C891 /* LoginViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -312,6 +336,63 @@
 				03D9AB84265B43EC00360E33 /* ViewShadow.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		03FB376D265C324D00F9C891 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				03FB376E265C328000F9C891 /* Core */,
+				03FB3779265C328000F9C891 /* Infra */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		03FB376E265C328000F9C891 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				03FB376F265C328000F9C891 /* Needs */,
+				03FB3771265C328000F9C891 /* Actions */,
+				03FB3776265C328000F9C891 /* Entities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		03FB376F265C328000F9C891 /* Needs */ = {
+			isa = PBXGroup;
+			children = (
+				03FB3770265C328000F9C891 /* LoginRepository.swift */,
+				03FB3785265C372500F9C891 /* LoginStore.swift */,
+			);
+			path = Needs;
+			sourceTree = "<group>";
+		};
+		03FB3771265C328000F9C891 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				03FB3772265C328000F9C891 /* LoginWithEmail.swift */,
+				03FB3773265C328000F9C891 /* Logout.swift */,
+				03FB3774265C328000F9C891 /* ResetPassword.swift */,
+				03FB3775265C328000F9C891 /* RegisterWithEmail.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		03FB3776265C328000F9C891 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				03FB3777265C328000F9C891 /* LoginCredentials.swift */,
+				03FB3778265C328000F9C891 /* UserData.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		03FB3779265C328000F9C891 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				03FB377A265C328000F9C891 /* LoginRepositoryFirebase.swift */,
+				03FB3787265C377400F9C891 /* LoginStoreImpl.swift */,
+			);
+			path = Infra;
 			sourceTree = "<group>";
 		};
 		C019EB04E7FF36A66EBBC0D5 /* Frameworks */ = {
@@ -576,18 +657,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FB3780265C328000F9C891 /* LoginCredentials.swift in Sources */,
 				03D9AB5A265AF7BF00360E33 /* Handler.swift in Sources */,
+				03FB3781265C328000F9C891 /* UserData.swift in Sources */,
+				03FB377D265C328000F9C891 /* Logout.swift in Sources */,
 				03D9AB61265AFB5400360E33 /* DeleteExpense.swift in Sources */,
 				03D9AB85265B43EC00360E33 /* ViewShadow.swift in Sources */,
 				03D9AB52265AF6B400360E33 /* Expense.swift in Sources */,
+				03FB3788265C377400F9C891 /* LoginStoreImpl.swift in Sources */,
+				03FB377F265C328000F9C891 /* RegisterWithEmail.swift in Sources */,
 				03D9AB6D265AFDD300360E33 /* ExpensesStoreImpl.swift in Sources */,
+				03FB3786265C372500F9C891 /* LoginStore.swift in Sources */,
+				03FB377C265C328000F9C891 /* LoginWithEmail.swift in Sources */,
 				03D9AB75265B117600360E33 /* ExpenseObj.swift in Sources */,
 				03D9AB83265B43CC00360E33 /* ViewCornerRadius.swift in Sources */,
+				03FB377B265C328000F9C891 /* LoginRepository.swift in Sources */,
 				03D9AB54265AF72200360E33 /* ExpensesModuleManager.swift in Sources */,
 				03D9AB63265AFB9300360E33 /* ExpensesStore.swift in Sources */,
 				03D9AB5F265AFAE700360E33 /* UpdateExpense.swift in Sources */,
 				03D9AB5D265AF9C400360E33 /* AddExpense.swift in Sources */,
 				03D9AB1E265AF61800360E33 /* AppDelegate.swift in Sources */,
+				03FB3784265C350800F9C891 /* LoginViewController.swift in Sources */,
 				03D9AB57265AF76100360E33 /* ExpensesRepository.swift in Sources */,
 				03D9AB70265B005B00360E33 /* ExpenseRepositoryFirebase.swift in Sources */,
 				03D9AB20265AF61800360E33 /* SceneDelegate.swift in Sources */,
@@ -595,8 +685,10 @@
 				03D9AB6A265AFCC000360E33 /* HomeViewController.swift in Sources */,
 				03D9AB80265B32F700360E33 /* EditExpenseTableViewController.swift in Sources */,
 				03D9AB7C265B1B8700360E33 /* Months.swift in Sources */,
+				03FB377E265C328000F9C891 /* ResetPassword.swift in Sources */,
 				03D9AB79265B1B5400360E33 /* Formatters.swift in Sources */,
 				03D9AB7E265B1CDA00360E33 /* DateComponents.swift in Sources */,
+				03FB3782265C328000F9C891 /* LoginRepositoryFirebase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

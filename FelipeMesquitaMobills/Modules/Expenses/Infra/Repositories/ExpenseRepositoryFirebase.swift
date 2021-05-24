@@ -11,11 +11,15 @@ import CodableFirebase
 
 class ExpenseRepositoryFirebase: ExpensesRepository {
     let db = Firestore.firestore()
-    let userId = "teste7"
+    private let userData: UserData
+    private let userId: String
     
     private var expensesColletion: CollectionReference
     
-    init() {
+    init(user: UserData) {
+        self.userData = user
+        self.userId = userData.id
+        
         let user = db.collection("users").document(userId)
         expensesColletion = user.collection("expenses")
     }

@@ -11,10 +11,17 @@ protocol ExpensesModuleManager {
     var addExpense: AddExpense { get }
     var deleteExpense: DeleteExpense { get }
     var updateExpense: UpdateExpense { get }
+    var userDataStore: LoginStore { get }
 }
 
 class ExpensesModuleManagerImpl: ExpensesModuleManager {
-    let repo = ExpenseRepositoryFirebase()
+    private let repo: ExpensesRepository
+    private let userStore: LoginStore
+    
+    init(userStore: LoginStore) {
+        self.userStore = userStore
+        self.repo = ExpenseRepositoryFirebase(user: userStore.currentUser)
+    }
     
     var addExpense: AddExpense {
         AddExpenseImpl(expensesRepository: repo)
@@ -26,5 +33,9 @@ class ExpensesModuleManagerImpl: ExpensesModuleManager {
     
     var updateExpense: UpdateExpense {
         UpdateExpenseImpl(expensesRepository: repo)
+    }
+    
+    var userDataStore: LoginStore {
+       userStore
     }
 }

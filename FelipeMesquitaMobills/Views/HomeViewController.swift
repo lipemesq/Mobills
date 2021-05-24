@@ -8,14 +8,13 @@
 import UIKit
 
 class HomeViewController: UITableViewController {
-    let moduleManager = ExpensesModuleManagerImpl()
-    
+    var moduleManager: ExpensesModuleManager!
     var expensesStore: ExpensesStore!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let repo = ExpenseRepositoryFirebase()
+        let repo = ExpenseRepositoryFirebase(user: moduleManager.userDataStore.currentUser)
         expensesStore = ExpensesStoreImpl(expensesRepository: repo)
         expensesStore.delegate = self
         

@@ -14,8 +14,8 @@
             filePath = "FelipeMesquitaMobills/Modules/Expenses/Infra/Repositories/ExpenseRepositoryFirebase.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "bindExpenses(onSucess:onError:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "FelipeMesquitaMobills/Modules/Expenses/Infra/Repositories/ExpenseRepositoryFirebase.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "bindExpenses(onSucess:onError:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -206,8 +206,8 @@
             filePath = "FelipeMesquitaMobills/Modules/Expenses/Infra/Repositories/ExpenseRepositoryFirebase.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "updateExpense(_:completion:)"
             landmarkType = "7">
             <Locations>
@@ -254,8 +254,8 @@
             filePath = "FelipeMesquitaMobills/Modules/Expenses/Infra/Repositories/ExpenseRepositoryFirebase.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "updateExpense(_:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -270,8 +270,8 @@
             filePath = "FelipeMesquitaMobills/Modules/Expenses/Infra/Repositories/ExpenseRepositoryFirebase.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "updateExpense(_:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -289,6 +289,118 @@
             startingLineNumber = "62"
             endingLineNumber = "62"
             landmarkName = "deleteExpense()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D15B0BEC-0B48-486B-8414-08B72636A29E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FelipeMesquitaMobills/Views/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "loginButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D15B0BEC-0B48-486B-8414-08B72636A29E - c5c924914e1342aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FelipeMesquitaMobills.LoginViewController.loginButtonTapped(Any) -&gt; ()"
+                  moduleName = "FelipeMesquitaMobills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemesquita/myself/FelipeMesquitaMobills/FelipeMesquitaMobills/Views/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1618">
+               </Location>
+               <Location
+                  uuid = "D15B0BEC-0B48-486B-8414-08B72636A29E - 2c8a699544475ed2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (FelipeMesquitaMobills.LoginStore) -&gt; () in FelipeMesquitaMobills.LoginViewController.loginButtonTapped(Any) -&gt; ()"
+                  moduleName = "FelipeMesquitaMobills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemesquita/myself/FelipeMesquitaMobills/FelipeMesquitaMobills/Views/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6359C930-5FED-4360-980B-FED6317FF17E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FelipeMesquitaMobills/Views/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "loginButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6359C930-5FED-4360-980B-FED6317FF17E - 2c8a699544475ed2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (FelipeMesquitaMobills.LoginStore) -&gt; () in FelipeMesquitaMobills.LoginViewController.loginButtonTapped(Any) -&gt; ()"
+                  moduleName = "FelipeMesquitaMobills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemesquita/myself/FelipeMesquitaMobills/FelipeMesquitaMobills/Views/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "6359C930-5FED-4360-980B-FED6317FF17E - 2c8a699544475ed2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (FelipeMesquitaMobills.LoginStore) -&gt; () in FelipeMesquitaMobills.LoginViewController.loginButtonTapped(Any) -&gt; ()"
+                  moduleName = "FelipeMesquitaMobills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemesquita/myself/FelipeMesquitaMobills/FelipeMesquitaMobills/Views/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "231">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "540ED9C1-AE1F-445B-9F09-0371CD6EAD5A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FelipeMesquitaMobills/Views/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "loginButtonTapped(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
