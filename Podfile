@@ -12,6 +12,8 @@ target 'FelipeMesquitaMobills' do
   # Optionally, include the Swift extensions if you're using Swift.
   pod 'FirebaseFirestoreSwift'
 
+  pod 'CodableFirebase'
+
   target 'FelipeMesquitaMobillsTests' do
     inherit! :search_paths
     # Pods for testing

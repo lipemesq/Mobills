@@ -8,7 +8,8 @@
 import Foundation
 
 protocol ExpensesRepository {
-    func bindExpenses(to handler: @escaping Handler<[Expense]>)
+    func bindExpenses(onSucess: @escaping Handler<[Expense]>,
+                      onError: @escaping Handler<Error>)
     
     func getExpenses(onSucess: @escaping Handler<[Expense]>,
                      onError: @escaping Handler<Error>)

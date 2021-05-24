@@ -8,6 +8,7 @@
 import Foundation
 
 struct Expense: Equatable, Codable {
+    var id: String?
     var value: Double
     var description: String
     var date: Date

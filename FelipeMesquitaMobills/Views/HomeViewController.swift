@@ -14,8 +14,9 @@ class HomeViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-      //  ler repo =
-        //expensesStore = ExpensesStoreImpl(expensesRepository: )
+        let repo = ExpenseRepositoryFirebase()
+        expensesStore = ExpensesStoreImpl(expensesRepository: repo)
+        expensesStore.delegate = self
     }
 
 }
@@ -39,12 +40,16 @@ extension HomeViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .value1, reuseIdentifier: "defaultCell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "homeCell") as! HomeTableViewCell
         let expense = expensesStore.expenses[indexPath.row]
         
-        cell.textLabel?.text = expense.description
-        cell.detailTextLabel?.text = expense.date.description
+        cell.title.text = expense.description
+        cell.subtitle.text = "\(expense.date.day) " + Months(rawValue: expense.date.month)!.short
+        cell.trailingDetail.text = expense.value.formatAsCurrency()
         
+        cell.trailingDetail.textColor = expense.paid ? .label.withAlphaComponent(0.75) : .orange
+
+
         return cell
     }
 }

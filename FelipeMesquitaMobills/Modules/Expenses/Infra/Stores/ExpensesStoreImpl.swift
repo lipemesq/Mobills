@@ -24,5 +24,8 @@ class ExpensesStoreImpl: ExpensesStore {
             self.expenses = result
             self.delegate?.didUpdateExpenses(to: self.expenses)
         }
+        onError: { error in
+            
+        }
     }
 }
