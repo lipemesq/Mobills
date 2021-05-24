@@ -49,12 +49,12 @@ class EditExpenseTableViewController: UITableViewController {
     }
     
     private func setupCreateButton() {
-        doneButton.titleLabel?.text = "Adicionar despesa"
+        doneButton.setTitle("Adicionar despesa", for: .normal)
         disableDoneButton()
     }
     
     private func setupUpdateButton() {
-        doneButton.titleLabel?.text = "Atualizar despesa"
+        doneButton.setTitle("Atualizar despesa", for: .normal)
         enableDoneButton()
     }
     
@@ -71,7 +71,7 @@ class EditExpenseTableViewController: UITableViewController {
     }
     
     private func setupCurrentData(with expense: Expense) {
-        valueInput.text = expense.value.formatAsCurrency()
+        valueInput.text = expense.value.formatAsCurrencyNoSymbolNoCents()
         descriptionInput.text = expense.description
         paidSwitch.isOn = expense.paid
         datePicker.date = expense.date

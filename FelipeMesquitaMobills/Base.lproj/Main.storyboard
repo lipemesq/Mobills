@@ -50,7 +50,7 @@
             </objects>
             <point key="canvasLocation" x="953.62318840579712" y="-601.33928571428567"/>
         </scene>
-        <!--Home View Controller-->
+        <!--Despesas-->
         <scene sceneID="5Qy-7X-Z74">
             <objects>
                 <tableViewController storyboardIdentifier="home" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zzc-zJ-hz4" customClass="HomeViewController" customModule="FelipeMesquitaMobills" customModuleProvider="target" sceneMemberID="viewController">
@@ -120,7 +120,12 @@
                             <outlet property="delegate" destination="Zzc-zJ-hz4" id="UhB-GL-Ps8"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="JW7-kH-7ug">
+                    <navigationItem key="navigationItem" title="Despesas" largeTitleDisplayMode="always" id="JW7-kH-7ug">
+                        <barButtonItem key="leftBarButtonItem" title="Sair" id="XXi-aU-omm">
+                            <connections>
+                                <action selector="logoutTapped:" destination="Zzc-zJ-hz4" id="m1b-Gf-f6U"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="iac-ek-q1x">
                             <connections>
                                 <action selector="addTapped:" destination="Zzc-zJ-hz4" id="YK0-ms-hgv"/>
@@ -219,7 +224,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Descrição" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8UA-H8-ceD">
-                                                    <rect key="frame" x="22" y="-5" width="334" height="44"/>
+                                                    <rect key="frame" x="20" y="8" width="334" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" returnKeyType="done"/>

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct LoginCredentials: Equatable {
+struct LoginCredentials: Equatable, Codable {
     var email: String
     var password: String
 }

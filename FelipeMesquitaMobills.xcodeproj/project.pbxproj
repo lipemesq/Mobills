@@ -45,6 +45,7 @@
 		03FB3784265C350800F9C891 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB3783265C350800F9C891 /* LoginViewController.swift */; };
 		03FB3786265C372500F9C891 /* LoginStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB3785265C372500F9C891 /* LoginStore.swift */; };
 		03FB3788265C377400F9C891 /* LoginStoreImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB3787265C377400F9C891 /* LoginStoreImpl.swift */; };
+		03FB378A265C3D5600F9C891 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB3789265C3D5600F9C891 /* UserDefaults.swift */; };
 		AEB41E0FBB6C5AD39D400306 /* Pods_FelipeMesquitaMobills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D2C1B8F426C6417A89D755 /* Pods_FelipeMesquitaMobills.framework */; };
 		BAF14F63FA54AD899BD19419 /* Pods_FelipeMesquitaMobills_FelipeMesquitaMobillsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DB2BF424965137BFCFCFEE /* Pods_FelipeMesquitaMobills_FelipeMesquitaMobillsUITests.framework */; };
 		D2551CF9353E941F97FDC190 /* Pods_FelipeMesquitaMobillsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAA699CBFEC8980F94DD930 /* Pods_FelipeMesquitaMobillsTests.framework */; };
@@ -112,6 +113,7 @@
 		03FB3783265C350800F9C891 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		03FB3785265C372500F9C891 /* LoginStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStore.swift; sourceTree = "<group>"; };
 		03FB3787265C377400F9C891 /* LoginStoreImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStoreImpl.swift; sourceTree = "<group>"; };
+		03FB3789265C3D5600F9C891 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		0FAA699CBFEC8980F94DD930 /* Pods_FelipeMesquitaMobillsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FelipeMesquitaMobillsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28450647B340D98BC8339372 /* Pods-FelipeMesquitaMobillsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FelipeMesquitaMobillsTests.debug.xcconfig"; path = "Target Support Files/Pods-FelipeMesquitaMobillsTests/Pods-FelipeMesquitaMobillsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		49A0FD0299948BEDE0119E8F /* Pods-FelipeMesquitaMobills-FelipeMesquitaMobillsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FelipeMesquitaMobills-FelipeMesquitaMobillsUITests.debug.xcconfig"; path = "Target Support Files/Pods-FelipeMesquitaMobills-FelipeMesquitaMobillsUITests/Pods-FelipeMesquitaMobills-FelipeMesquitaMobillsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -389,6 +391,7 @@
 		03FB3779265C328000F9C891 /* Infra */ = {
 			isa = PBXGroup;
 			children = (
+				03FB3789265C3D5600F9C891 /* UserDefaults.swift */,
 				03FB377A265C328000F9C891 /* LoginRepositoryFirebase.swift */,
 				03FB3787265C377400F9C891 /* LoginStoreImpl.swift */,
 			);
@@ -657,6 +660,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FB378A265C3D5600F9C891 /* UserDefaults.swift in Sources */,
 				03FB3780265C328000F9C891 /* LoginCredentials.swift in Sources */,
 				03D9AB5A265AF7BF00360E33 /* Handler.swift in Sources */,
 				03FB3781265C328000F9C891 /* UserData.swift in Sources */,

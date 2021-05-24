@@ -25,6 +25,9 @@ class LogoutImpl: Logout {
                 completion(error)
             }
             else {
+                let defaults = UserDefaults()
+                defaults.set(codableKey: .loggedUser, value: nil)
+                
                 completion(nil)
             }
         }

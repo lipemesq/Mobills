@@ -45,9 +45,22 @@ class HomeViewController: UITableViewController {
         }
     }
     
+    private func logout() {
+        let doLogout = moduleManager.doLogout
+        doLogout() { error in
+            let loginView = (self.storyboard?.instantiateViewController(identifier: "loginView"))!
+            self.navigationController?.setViewControllers([loginView], animated: true)
+        }
+    }
+    
     @IBAction func addTapped(_ sender: UIBarButtonItem) {
         showAddExpensePanel()
     }
+    
+    @IBAction func logoutTapped(_ sender: Any) {
+        logout()
+    }
+    
     
 }
 

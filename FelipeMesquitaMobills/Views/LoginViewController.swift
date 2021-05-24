@@ -15,9 +15,22 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let defaults = UserDefaults()
+        if let currentUser = defaults.get(codableKey: .loggedUser) {
+            autoLogin(currentUser)
+        }
     }
-
-    @IBAction func loginButtonTapped(_ sender: Any) {
+    
+    private func autoLogin(_ user: UserData) {
+        let homeView = (self.storyboard?.instantiateViewController(identifier: "home")) as! HomeViewController
+        
+        let userStore = LoginStoreImpl(currentUser: user)
+        homeView.moduleManager = ExpensesModuleManagerImpl(userStore: userStore)
+        
+        self.navigationController?.setViewControllers([homeView], animated: true)
+    }
+    
+    private func manualLogin() {
         let email = emailField.text ?? ""
         let password = passwordField.text ?? ""
         
@@ -35,6 +48,10 @@ class LoginViewController: UIViewController {
         onError: { error in
             print(error)
         }
+    }
+
+    @IBAction func loginButtonTapped(_ sender: Any) {
+        manualLogin()
     }
     
 }

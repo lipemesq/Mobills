@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct UserData: Equatable {
+struct UserData: Equatable, Codable {
     var id: String
     var displayName: String
     

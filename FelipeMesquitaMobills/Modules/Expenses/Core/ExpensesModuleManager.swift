@@ -12,6 +12,7 @@ protocol ExpensesModuleManager {
     var deleteExpense: DeleteExpense { get }
     var updateExpense: UpdateExpense { get }
     var userDataStore: LoginStore { get }
+    var doLogout: Logout { get }
 }
 
 class ExpensesModuleManagerImpl: ExpensesModuleManager {
@@ -37,5 +38,10 @@ class ExpensesModuleManagerImpl: ExpensesModuleManager {
     
     var userDataStore: LoginStore {
        userStore
+    }
+    
+    var doLogout: Logout {
+        let loginRepo = LoginRepositoryFirebase()
+        return LogoutImpl(repository: loginRepo)
     }
 }

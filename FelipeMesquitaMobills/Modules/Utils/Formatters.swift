@@ -26,6 +26,17 @@ extension Double {
         
         return currencyFormatter.string(from: NSNumber(value: self))
     }
+    
+    func formatAsCurrencyNoSymbolNoCents() -> String? {
+        let currencyFormatter = NumberFormatter()
+        currencyFormatter.usesGroupingSeparator = false
+        currencyFormatter.numberStyle = .currency
+        currencyFormatter.locale = Locale.current
+        currencyFormatter.allowsFloats = false
+        currencyFormatter.currencySymbol = ""
+        
+        return currencyFormatter.string(from: NSNumber(value: self))
+    }
 }
 
 extension Date {
