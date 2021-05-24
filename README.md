@@ -16,6 +16,19 @@ Features:
 - Firebase Auth e Firestore e persistência de login.
 - Acabei não tendo tempo pra fazer a interface pra fazer cadastro (sim, eu sei, tbm acho risível), apesar de o módulo e a funcionalidade estar toda implementada. Só não tem onde clicar no botão e mostrar o aviso pra pessoa e.e
 
+**** IMPORTANTE ****
+Como não tem UI pra cadastro, tu terás que usar algumas contas que eu criei direto no firebase:
+- lipe@mail.com, 123456
+- nome@mail.com, banana
+- oi.lindo@mail.com, nemvem
+- soutop@mail.com, eumesmo
+********
+
+
+- Acabei não tendo tempo pra fazer a interface pra fazer cadastro (sim, eu sei, tbm acho risível), apesar de o módulo e a funcionalidade estar toda implementada. Só não tem onde clicar no botão e mostrar o aviso pra pessoa e.e
+- 
+- Acabei não tendo tempo pra fazer a interface pra fazer cadastro (sim, eu sei, tbm acho risível), apesar de o módulo e a funcionalidade estar toda implementada. Só não tem onde clicar no botão e mostrar o aviso pra pessoa e.e
+
 Design:
 - Super simples, fiz o mínimo possível por causa do tempo, e aí mudei algumas coisinha pra ficar minimamente bonitinho.
 
